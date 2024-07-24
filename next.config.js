@@ -46,72 +46,72 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      {
-        source: '/',
-        destination: 'https://www.sushi.com/swap',
-        permanent: true,
-      },
+    //   {
+    //     source: '/',
+    //     destination: 'https://www.sushi.com/swap',
+    //     permanent: true,
+    //   },
 
-      {
-        source: '/swap',
-        destination: 'https://www.sushi.com/swap',
-        permanent: true,
-      },
-      {
-        source: '/home',
-        destination: 'https://www.sushi.com/swap',
-        permanent: true,
-      },
-      {
-        source: '/pools',
-        destination: 'https://www.sushi.com/pool',
-        permanent: true,
-      },
-      {
-        source: '/farms/special',
-        destination: 'https://www.sushi.com/pool',
-        permanent: true,
-      },
-      {
-        source: '/onsen/:path*',
-        destination: 'https://www.sushi.com/pool',
-        permanent: true,
-      },
-      {
-        source: '/farms/:path*',
-        destination: 'https://www.sushi.com/pool',
-        permanent: true,
-      },
-      {
-        source: '/stake',
-        destination: 'https://www.sushi.com/pool',
-        permanent: true,
-      },
-      {
-        source: '/borrow',
-        destination: '/kashi',
-        permanent: true,
-      },
-      {
-        source: '/lend',
-        destination: '/kashi',
-        permanent: true,
-      },
-      {
-        source: '/inari',
-        destination: '/tools/inari',
-        permanent: true,
-      },
-      {
-        source: '/bento/balances',
-        destination: '/account',
-        permanent: true,
-      },
-      {
-        source: '/analytics/:path*',
-        destination: 'https://www.sushi.com/analytics',
-        permanent: true,
-      }
+    //   {
+    //     source: '/swap',
+    //     destination: 'https://www.sushi.com/swap',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/home',
+    //     destination: 'https://www.sushi.com/swap',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/pools',
+    //     destination: 'https://www.sushi.com/pool',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/farms/special',
+    //     destination: 'https://www.sushi.com/pool',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/onsen/:path*',
+    //     destination: 'https://www.sushi.com/pool',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/farms/:path*',
+    //     destination: 'https://www.sushi.com/pool',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/stake',
+    //     destination: 'https://www.sushi.com/pool',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/borrow',
+    //     destination: '/kashi',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/lend',
+    //     destination: '/kashi',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/inari',
+    //     destination: '/tools/inari',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/bento/balances',
+    //     destination: '/account',
+    //     permanent: true,
+    //   },
+    //   {
+    //     source: '/analytics/:path*',
+    //     destination: 'https://www.sushi.com/analytics',
+    //     permanent: true,
+    //   }
     ]
   },
   async rewrites() {
